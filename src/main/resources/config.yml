@@ -1,0 +1,85 @@
+debug-msg: false
+
+mongodb:
+  ip: localhost
+  database-name: fullpvp
+
+ilegal-words:
+- Nigga
+- Marica
+- Veil
+- Lag
+- Mierda
+- Puto
+
+scheduled-events:
+- monday,thursday:20:10:koth:cracks
+
+tutorial:
+  locations:
+  - world::283::63::300::false::Estos cofres están ubicados en el spawn, te brindarán un kit gratis cuando quieras. Se mejoran al abrirlos y dar click a la lana verde.
+  - world::271::63::298::false::Estos cofres están en la mapa (PvP activado) y se regeneran con el paso del tiempo, toma su contenido para intercambios y equiparte
+  - world::277::65::302::false::Estos son los "droppers", usados durante el evento. "dropper event, los cuales spawnearán cada 60 segundos un item exclusivo, si hay uno activo lo verás en tu scoreboard.
+  - world::282::63::308::false::Aquí están algunos de los comandos comunes de la modalidad, tenlos en cuenta!
+events:
+  delay: 15
+  countdown: 15
+  dtc:
+    health: 50
+    seconds-to-healing: 20
+
+tag:
+  duration: 15
+  logger-duration: 30
+  allowed-commands:
+  - /helpop
+  - /msg
+  - /r
+  - /report
+  - /help
+  - /ct
+  - /coords
+  - /msg
+  - /stats
+  - /clan
+
+kill:
+  rankup: 5
+  money:
+    default: 100
+    bolq: 130
+    kain: 135
+    trojan: 140
+    foses: 145
+    qiaq: 150
+
+
+kits-chest:
+  cost:
+    to-lvl-2: 1000
+    to-lvl-3: 2000
+    to-lvl-4: 3000
+    to-lvl-5: 4000
+    to-lvl-6: 5000
+    to-lvl-7: 7000
+    to-lvl-8: 9000
+    to-lvl-9: 11000
+    to-lvl-10: 12000
+
+clan:
+  creation-cost: 10000
+  max-members: 8
+  rank-up:
+    lvl-2: 6000
+    lvl-3: 10000
+    lvl-4: 13000
+    lvl-5: 16000
+    lvl-6: 19000
+    lvl-7: 24000
+    lvl-8: 28000
+    lvl-9: 32000
+    lvl-10: 35000
+
+koth-default-duration: 15
+
+enable-world-protector: true

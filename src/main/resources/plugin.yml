@@ -1,0 +1,11 @@
+main: me.theoldestwilly.fullpvp.FullPvP
+
+name: FullPvP
+version: 0.1-SNAPSHOT
+description: "FullPvP developed by TheOldestWilly using the Bukkit/Spigot API."
+
+authors: [TheOldestWilly]
+
+depend: [Nightmare, LuckPerms, WorldEdit]
+
+commands:
